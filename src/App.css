@@ -1,0 +1,87 @@
+.App {
+  text-align: center;
+  background-image: linear-gradient(to bottom, rgb(69, 240, 39), rgb(238, 255, 0));
+  width: auto;
+
+  height:auto;
+  
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.Leaderboard{
+
+  
+}
+
+img {
+  width: 40px;
+  border-radius: 50%;
+  background-color: rgb(124, 28, 124);
+  }
+
+.PlayBtn button {
+  background-color: rgb(124, 28, 124);
+  width: 600px;
+  height: 40px;
+  text-align: center;
+  border-radius: 20px;
+  
+}
+
+li{
+  background-color: aliceblue;
+  border:1px solid #282c34;
+  width: 600px;
+  height: 60px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 15px;
+
+}
+.liContainer{
+  display: flex;
+  justify-content: center;
+}
+
+
+.dot{
+  background-color: yellow;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid black;
+  margin: 5px;
+}
+
+.dotContainer {
+  display: flex;
+  align-content: center;
+  margin-top: 10px;
+}
+
+.PlayBtn{
+ margin-top: 200px;
+  
+}
